@@ -11,7 +11,7 @@ export const PhotoDetails = async ({ id, lang }) => {
   return (
     <div className="grid grid-cols-12 gap-4 2xl:gap-10 ">
       <div className="col-span-12 lg:col-span-8 border rounded-xl">
-        <Image width={900} height={500} className="max-w-full h-full max-h-[70vh] mx-auto" src={photo.url} alt="cover" />
+        <Image width={900} height={500} className="max-w-full h-full max-h-[70vh] mx-auto rounded-md" src={photo.url} alt="cover" />
       </div>
       <div className="p-6 border rounded-xl col-span-12 lg:col-span-4  ">
         <h2 className="text-lg lg:text-2xl font-bold mb-2">
